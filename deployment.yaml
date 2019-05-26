@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: <username>/hello-service:{{VERSION}}
+        image: leszko/hello-service:{{VERSION}}
         ports:
         - containerPort: 5000
 
