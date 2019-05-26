@@ -16,4 +16,4 @@ END=$(date +%s)
 RUNTIME=$((END-START))
 AVG=$((RUNTIME/N))
 
-test ${RUNTIME} -lt 1
+test ${AVG} -lt 1
